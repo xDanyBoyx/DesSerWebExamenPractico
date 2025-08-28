@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Filtrado de Elementos</title>
+</head>
+<body>
+    <h1>Filtrado de Elementos de un Arreglo</h1>
+
+    <label for="numero">Ingrese un número o "fin" para terminar:</label>
+    <input type="text" id="numero" placeholder="Número o fin">
+    <button onclick="agregarNumero()">Agregar</button>
+
+    <h3>Arreglo Actual:</h3>
+    <p id="arregloActual">[]</p>
+
+    <hr>
+
+    <label for="valorFiltro">Ingrese el valor mínimo para filtrar:</label>
+    <input type="number" id="valorFiltro" placeholder="Valor mínimo">
+    <button onclick="filtrarArreglo()">Filtrar</button>
+
+    <h3>Elementos Filtrados:</h3>
+    <p id="resultado">Aquí se mostrarán los elementos mayores que el valor indicado</p>
+
+    <script src="../Act6/filtrado.js"></script>
+</body>
+</html>

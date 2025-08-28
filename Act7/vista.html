@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Concatenación de Arreglos</title>
+</head>
+<body>
+    <h1>Concatenación de Arreglos</h1>
+
+    <h3>Primer arreglo</h3>
+    <label for="array1">Ingrese un elemento o "fin" para terminar:</label>
+    <input type="text" id="array1Input" placeholder="Elemento o fin">
+    <button onclick="agregarArray1()">Agregar</button>
+    <p>Arreglo 1: <span id="arreglo1">[]</span></p>
+
+    <h3>Segundo arreglo</h3>
+    <label for="array2">Ingrese un elemento o "fin" para terminar:</label>
+    <input type="text" id="array2Input" placeholder="Elemento o fin">
+    <button onclick="agregarArray2()">Agregar</button>
+    <p>Arreglo 2: <span id="arreglo2">[]</span></p>
+
+    <hr>
+
+    <button onclick="concatenarArreglos()">Concatenar Arreglos</button>
+    <h3>Arreglo Concatenado:</h3>
+    <p id="resultado">Aquí se mostrará el arreglo concatenado</p>
+
+    <script src="../Act7/ConArray.js"></script>
+</body>
+</html>

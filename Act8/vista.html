@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Búsqueda de Elementos</title>
+</head>
+<body>
+    <h1>Búsqueda de Elementos en un Arreglo</h1>
+
+    <h3>Ingresar nombres</h3>
+    <label for="nombreInput">Ingrese un nombre o "fin" para terminar:</label>
+    <input type="text" id="nombreInput" placeholder="Nombre o fin">
+    <button onclick="agregarNombre()">Agregar</button>
+    <p>Arreglo de nombres: <span id="arregloNombres">[]</span></p>
+
+    <hr>
+
+    <h3>Buscar nombre</h3>
+    <label for="buscarInput">Ingrese el nombre a buscar:</label>
+    <input type="text" id="buscarInput" placeholder="Nombre a buscar">
+    <button onclick="buscarNombre()">Buscar</button>
+    <p id="resultadoBusqueda"></p>
+
+    <script src="../Act8/BusquedaArray.js"></script>
+</body>
+</html>
